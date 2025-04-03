@@ -47,7 +47,6 @@
 
 </body>
 </html>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,55 +77,6 @@
             <li>Customer Satisfaction</li>
             <li>Environmental Sustainability</li>
         </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Jump Out Crew. All rights reserved.</p>
-    </footer>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Location - Jump Out Crew</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
-    <script>
-        function initMap() {
-            var storeLocation = {lat: 40.7128, lng: -74.0060}; // Example location: New York City
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 14,
-                center: storeLocation
-            });
-            var marker = new google.maps.Marker({
-                position: storeLocation,
-                map: map,
-                title: 'Jump Out Crew Store'
-            });
-        }
-    </script>
-</head>
-<body onload="initMap()">
-    <header>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="location.html">Location</a></li>
-                <li><a href="#">Shop</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="location">
-        <h1>Our Store Location</h1>
-        <div id="map" style="height: 400px; width: 100%;"></div>
-        <p>Come visit us at our flagship store in New York City. We look forward to seeing you!</p>
-        <p><strong>Address:</strong> 123 Fashion St, New York, NY 10001</p>
-        <p><strong>Hours:</strong> Mon-Sat: 10am - 8pm, Sun: 12pm - 6pm</p>
     </section>
 
     <footer>
